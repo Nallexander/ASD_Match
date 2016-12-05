@@ -1,13 +1,13 @@
 public class RequesterFeedback{
-    private String descrption;
+    private String description;
     private boolean abuse;
     private Match match;
-}
+
 
 public RequesterFeedback(String description, boolean abuse, Match match){
     this.description = description;
     this.abuse =abuse;
-    this.match=match
+    this.match=match;
 }
 public void setDescription(String description){
     this.description = description;
@@ -26,4 +26,5 @@ public void setMatch(Match match){
 }
 public Match getMatch(){
     return this.match;
+}
 }
