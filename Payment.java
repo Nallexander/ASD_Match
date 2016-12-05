@@ -1,4 +1,4 @@
-import java.util.list
+import java.util.list;
 
 public class Payment {
 	private int paymentID;
