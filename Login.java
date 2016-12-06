@@ -1,6 +1,6 @@
 
 public class Login {
-	private Authentictor authenticator;
+	private Authenticator authenticator;
 	private static Login login = new Login();
 	protected Login(){
 	}

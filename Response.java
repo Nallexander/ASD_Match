@@ -7,6 +7,6 @@ public class Response{
     public Response(Responder responder, Boolean response, Invitation invitation){
 	this.responder = responder;
 	this.response = response;
-	this.invitaion = invitation;
+	this.invitation = invitation;
 	    }
 }

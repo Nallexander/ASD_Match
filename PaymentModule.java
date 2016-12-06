@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class PaymentModule {
-	private static PaymentModule paymentModule = new paymentModule();
+	private static PaymentModule paymentModule = new PaymentModule();
 
 	/* Private constructor that precents other classes from instantiating*/
 	private PaymentModule() {}
