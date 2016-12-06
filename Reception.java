@@ -1,38 +1,44 @@
+import java.util.*;
+
 public class Reception{
 
     private static Reception reception = new Reception();
-    private Matcherpool matcherpool;
+    private MatcherPool matcherpool = MatcherPool.getInstance();
     private LinkedList<Response> responses;
-    private UsageStatistics statisticsEngine;
+    //    private UsageStatistics statisticsEngine;
 	
     private Reception(){
-	this.matcherpool = Matcherpool.getInstance();
-	this.responses = null;
-	this.statisticsEngine = new Usagestatistics();
     }
 
     public static Reception getInstance(){
-	return this.reception;
+	return reception;
     }
-    
+    /*   
     public void handleRequest(Matcher matcher, Request request){
 	
     }
-    public void updateUser(Database Handler, User user){
-	
+    */
+    /*
+    public void updateUser(DatabaseHandler dbhandler, User user){
+   
     }
+    */
     public void activateMatch(Match match){
 	
     }
     public void handleResponse(Response response){
 	
     }
+    /*
     public void save(DBHandler db){
 	
     }
-    public LinkedList<Responder> getResponders(DBHandler db){
-	
-    }
+    */
+    /*
+     public LinkedList<Responder> getResponders(DBHandler db){
+       
+     }
+    */
     public void handleDecline(Invitation invitation){
 	
     }
