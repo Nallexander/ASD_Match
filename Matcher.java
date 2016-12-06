@@ -38,7 +38,5 @@ public class Matcher{
     
     }
     */
-    public LinkedList<Responder> getResponders(Reception reception){
-	
-    }
+   
 }
