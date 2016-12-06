@@ -1,21 +1,19 @@
+import java.util.List;
 public class Scheduler{
-    private List<Inivitation> invitations;
+    private List<Invitation> invitations;
     private List<Match> matches;
     private Matcher matcher;
     private static Scheduler scheduler = new Scheduler();
 
 
     private Scheduler(){
-	this.invitations = new List<invitation>();
-	this.matches = new List<Matches>();
-	this.matcher = new Matcher();
-      
     }
     public static Scheduler getInstance(){
 	return scheduler;
     }
 
     public Invitation invite(Match match){
+	return this.invitations.get(1);
     }
 
     public void requestFeedback(User user){
