@@ -1,4 +1,4 @@
-import java.util.list;
+import java.util.List;
 
 public class PaymentModule {
 	private static PaymentModule paymentModule = new paymentModule();

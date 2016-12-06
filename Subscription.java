@@ -1,3 +1,3 @@
 public interface Subscription {
-	public String getDescription(){}
+	public String getDescription();
 }
